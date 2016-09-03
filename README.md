@@ -32,6 +32,7 @@ $.floatingMenu({
                 alert('insert');
             },
             blank : true, // no effect since action is not a url (optional, defaults to false)
+            modal : "data-toggle='modal'", // (If link modal (optional, empty to 'data-toggle='modal'')
             close : false, // dont close the menu after and action has happened (optional, defaults to true)
         },
         {
