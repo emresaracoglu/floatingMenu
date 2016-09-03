@@ -53,7 +53,7 @@
                     return false;
                 }
 
-                $a = $("<a href='" + href + "'>" + item.title + "</a>").click({type: type, item: item}, $.proxy(this.actionHandler, this));
+                $a = $("<a " + item.modal + "href='" + href + "'>" + item.title + "</a>").click({type: type, item: item}, $.proxy(this.actionHandler, this));
 
                 if(item.icon != undefined)
                 {
